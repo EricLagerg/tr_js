@@ -127,11 +127,7 @@ window.onload = function() {
 		gist_data = ajax(gist_url),
 		data = new NewData(gist_data, map);
 
-	var i = 0;
-	while(data.new_marker() !== -1) {
-		// console.log(i);
-		i++;
-	};
+	while(data.new_marker() !== -1) {};
 }
 
 window.onunload = function() { /* disable caching */ };
