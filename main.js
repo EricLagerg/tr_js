@@ -84,9 +84,6 @@ window.onload = function() {
 		 */
 		this.new_marker = function() {
 
-			/* Real number for Bothell is 14,739. That crashes Chrome.
-				This is just an example so limit it to something easy,
-				like 1,000. */
 			if (index >= len) {
 
 				// TODO: I don't like this.
